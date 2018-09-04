@@ -1,0 +1,108 @@
+{
+  "_args": [
+    [
+      {
+        "name": "dom-compare",
+        "raw": "dom-compare",
+        "rawSpec": "",
+        "scope": null,
+        "spec": "latest",
+        "type": "tag"
+      },
+      "F:\\Practice\\Array\\NOdeJSPRa"
+    ]
+  ],
+  "_from": "dom-compare@latest",
+  "_id": "dom-compare@0.3.2",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/dom-compare",
+  "_nodeVersion": "9.11.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/dom-compare_0.3.2_1535314491282_0.7889618732088601"
+  },
+  "_npmUser": {
+    "email": "oleg@elifantiev.ru",
+    "name": "olegas"
+  },
+  "_npmVersion": "6.4.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "dom-compare",
+    "raw": "dom-compare",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/dom-compare/-/dom-compare-0.3.2.tgz",
+  "_shasum": "969850b4c183f577ad7ad481c60270199a4c1f66",
+  "_shrinkwrap": null,
+  "_spec": "dom-compare",
+  "_where": "F:\\Practice\\Array\\NOdeJSPRa",
+  "author": {
+    "email": "oleg@elifantiev.ru",
+    "name": "Oleg Elifantiev"
+  },
+  "bin": {
+    "domcompare": "bin/domcompare"
+  },
+  "bugs": {
+    "url": "https://github.com/Olegas/dom-compare/issues"
+  },
+  "contributors": [],
+  "dependencies": {
+    "argparse": "^1.0.10",
+    "colors": "0.6.2",
+    "xmldom": "0.1.19"
+  },
+  "description": "Library to compare two DOM trees",
+  "devDependencies": {
+    "coveralls": "^3.0.2",
+    "istanbul": "^0.4.5",
+    "mocha": "^5.2.0",
+    "mocha-istanbul": "0.2.0"
+  },
+  "directories": {},
+  "dist": {
+    "fileCount": 21,
+    "integrity": "sha512-T7rGtEjrcGk49iWAuTgnNVR7G/uuqG5CPsl7lYY/2Wvuq5vuAK7LyevFR49+VwAThtGjpjr08hVvXEEFjb4CUw==",
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbgwo7CRA9TVsSAnZWagAAYPwQAJZZ9BxcwPkDCbmc6V5v\nug1eQNuyb1o+Se5mXelHs2hX817i/ItI2ZzqNEN8WCqlbbex5g394DacHM0u\ndfRscJnmwagRk0TsGD/F7iYEY6dQq2Brttk/izZSNqVl24/kF+Qsf1Iy0pxd\nraj+kx5rFfViU8trqvqtrjYNp6vP0Iu84VJ2C5yreyQaKZHcC1mDx/zm1ogO\nuhPF4vQtHGlgonBDnB42R5+5X64hUbo+Gs3eEpWz5eC42btuFrJ3plBwQ4oY\nMxXcqrW+g6gUAqH1xFeliruCA5mEKlMU3c+hu1kmzByUWogAX1sRvDly/aqn\nAv0T4/ajXO5s/vIdyJoIXWAyWbA+HMUdyqBD8axVQJEvqKYKeac7B/ALhxWX\nA39CLBFNV6IhfmcNi2D6130ONkNUVfEV+WyT3w46I5uHJcfjYwxyc255LuUb\npLmhdgLgTzR4YFiRImX4syIWLuysM5Hc/8Ix4J1BrD+0dEyyi70+flAnORqN\nsU30j94PXHIVolyHdDQc2VrxyleyKZ+QPYqWJgacqN207dXLMF7y/OdgeBrq\nJBd/A+PtZ3D4X6IuO9FB4X/yozhhCsieMsTld+3Mew0zAb1c+/bW+rXRToS8\nflrmy9P52L6lemxKAw9hMWzggntA1PJnYIfIomPKSgUR9WTSxeo9hUGwJNUG\nTwJW\r\n=JuSy\r\n-----END PGP SIGNATURE-----\r\n",
+    "shasum": "969850b4c183f577ad7ad481c60270199a4c1f66",
+    "tarball": "https://registry.npmjs.org/dom-compare/-/dom-compare-0.3.2.tgz",
+    "unpackedSize": 52207
+  },
+  "engines": {
+    "node": "*"
+  },
+  "gitHead": "b48246bf2f2f9f16962f74ec89c9b69c9c203108",
+  "homepage": "https://github.com/Olegas/dom-compare#readme",
+  "keywords": [
+    "dom",
+    "comparison"
+  ],
+  "maintainers": [
+    {
+      "email": "oleg@elifantiev.ru",
+      "name": "olegas"
+    }
+  ],
+  "name": "dom-compare",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Olegas/dom-compare.git"
+  },
+  "scripts": {
+    "instrument": "istanbul instrument --output lib-cov --no-compact --variable global.__coverage__ lib",
+    "test": "mocha -R spec",
+    "test-cov": "npm run-script instrument && COVER=1 ISTANBUL_REPORTERS=lcovonly mocha -R mocha-istanbul"
+  },
+  "version": "0.3.2"
+}
